@@ -5,11 +5,11 @@ import reportWebVitals from './reportWebVitals';
 
 import './index.css';
 
-import Home from './Home';
+import AreaOfCustomer from './views/pages/AreaOfCustomer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Home />
+    <AreaOfCustomer />
   </React.StrictMode>,
   document.getElementById('root')
 );

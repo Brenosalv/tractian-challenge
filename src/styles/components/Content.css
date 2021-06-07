@@ -1,0 +1,54 @@
+.content-container {
+  width: 100%;
+  height: 100%;
+}
+
+#title {
+  width: fit-content;
+  padding: 24px 0 0 24px;
+  font-size: 1.35rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+
+#content-main {
+  width: 100%;
+  height: 100%;
+  padding: 0 24px 24px 24px;
+}
+
+@media (max-width: 320px) {
+  .ant-page-header-heading .ant-page-header-heading-title {
+    font-size: 4.5vw;
+  }
+}
+
+@media (min-width: 320px) {
+  .ant-page-header-heading .ant-page-header-heading-title {
+    font-size: 3vw;
+  }
+}
+
+@media (min-width: 375px) {
+  .ant-page-header-heading .ant-page-header-heading-title {
+    font-size: 3.5vw;
+  }
+}
+
+@media (min-width: 425px) {
+  .ant-page-header-heading .ant-page-header-heading-title {
+    font-size: 3.5vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .ant-page-header-heading .ant-page-header-heading-title {
+    font-size: 2.5vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ant-page-header-heading .ant-page-header-heading-title {
+    font-size: 1.5vw;
+  }
+}

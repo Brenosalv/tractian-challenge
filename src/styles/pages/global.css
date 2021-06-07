@@ -1,0 +1,227 @@
+@import 'antd/dist/antd.css';
+.spin-container {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  padding: 48px;
+  font-family: Poppins, sans-serif;
+}
+
+.container>main {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  background-color: var(--grey);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+.box-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min-content, 16rem));
+  gap: 24px;
+}
+
+.container #responsible-for-unit {
+  width: fit-content;
+  font-weight: 600;
+  background-color: var(--responsible);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 320px) {
+  .container #responsible-for-unit {
+    font-size: 0.7rem;
+  }
+  .ant-select-selection-item {
+    font-size: 0.6rem;
+  }
+  .ant-select-item-option-content {
+    font-size: 0.6rem;
+  }
+  strong {
+    font-size: 0.5rem;
+  }
+  .ant-card {
+    width: 45vw;
+  }
+}
+
+@media (min-width: 320px) {
+  .container #responsible-for-unit {
+    font-size: 0.7rem;
+  }
+  .ant-select-selection-item {
+    font-size: 0.6rem;
+  }
+  .ant-select-item-option-content {
+    font-size: 0.6rem;
+  }
+  strong {
+    font-size: 0.5rem;
+  }
+  .ant-card {
+    width: 55vw;
+  }
+}
+
+@media (min-width: 375px) {
+  .container #responsible-for-unit {
+    font-size: 0.7rem;
+  }
+  .ant-select-selection-item {
+    font-size: 0.7rem;
+  }
+  .ant-select-item-option-content {
+    font-size: 0.7rem;
+  }
+  strong {
+    font-size: 0.7rem;
+  }
+  .ant-card {
+    width: 62vw;
+  }
+}
+
+@media (min-width: 425px) {
+  .container #responsible-for-unit {
+    font-size: 0.8rem;
+  }
+  .ant-select-selection-item {
+    font-size: 0.8rem;
+  }
+  .ant-select-item-option-content {
+    font-size: 0.8rem;
+  }
+  strong {
+    font-size: 0.8rem;
+  }
+  .ant-card {
+    width: 65vw;
+  }
+}
+
+@media (min-width: 740px) {
+  .ant-card {
+    width: 38vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .container #responsible-for-unit {
+    font-size: 0.9rem;
+  }
+  .ant-select-selection-item {
+    font-size: 0.9rem;
+  }
+  .ant-select-item-option-content {
+    font-size: 0.9rem;
+  }
+  strong {
+    font-size: 0.9rem;
+  }
+  .ant-card {
+    width: 39vw;
+  }
+  .ant-image-img {
+    height: 24rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ant-card {
+    width: 27vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .ant-card {
+    width: 21vw;
+  }
+}
+
+.card {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.asset-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#card-title {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+  gap: 8px;
+}
+
+@media (max-width: 320px) {
+  #card-title>img {
+    width: 1.5rem;
+  }
+}
+
+@media (min-width: 320px) {
+  #card-title>img {
+    width: 1.5rem;
+  }
+}
+
+@media (min-width: 425px) {
+  #card-title>img {
+    width: 2rem;
+  }
+}
+
+#card-content {
+  display: flex;
+}
+
+p {
+  margin: 0
+}
+
+.empty-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#asset-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.asset-data {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min-content, 18rem));
+  gap: 24px;
+}
+
+strong {
+  margin-right: 4px;
+  white-space: nowrap;
+}
+
+.ant-card-body {
+  padding: 12px;
+}

@@ -1,0 +1,38 @@
+#editable-text {
+  margin: 0 8px 0 0;
+  white-space: nowrap;
+}
+
+.ant-typography-edit {
+  margin-left: 10px;
+}
+
+@media (max-width: 320px) {
+  #editable-text {
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 320px) {
+  #editable-text {
+    font-size: 0.5rem;
+  }
+}
+
+@media (min-width: 375px) {
+  #editable-text {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 425px) {
+  #editable-text {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #editable-text {
+    font-size: 0.9rem;
+  }
+}

@@ -1,16 +1,25 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
+import { UsersContextProvider } from './contexts/UsersContext';
+import { AssetsContextProvider } from './contexts/AssetsContext';
+import { GeneralContextProvider } from './contexts/GeneralContext';
+
+import Routes from './routes';
 import reportWebVitals from './reportWebVitals';
 
 import './index.css';
 
-import AreaOfCustomer from './views/pages/AreaOfCustomer';
-
 ReactDOM.render(
-  <React.StrictMode>
-    <AreaOfCustomer />
-  </React.StrictMode>,
+  <BrowserRouter>
+    <GeneralContextProvider>
+      <UsersContextProvider>
+        <AssetsContextProvider>
+          <Routes />
+        </AssetsContextProvider>
+      </UsersContextProvider>
+    </GeneralContextProvider>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
